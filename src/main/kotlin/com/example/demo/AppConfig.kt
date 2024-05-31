@@ -7,8 +7,5 @@ import org.springframework.validation.beanvalidation.MethodValidationPostProcess
 
 @Configuration
 class AppConfig {
-    @Bean
-    fun validationPostProcessor(): MethodValidationPostProcessor {
-        return MethodValidationPostProcessor()
-    }
+
 }
